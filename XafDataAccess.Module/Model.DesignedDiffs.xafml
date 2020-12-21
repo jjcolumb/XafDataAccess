@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="XafDataAccess">
+  <NavigationItems>
+    <Items>
+      <Item Id="@a47dcef0-2fef-4597-b2ba-023759000511" Caption="Data loading" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@98a60a20-f341-4938-8608-998cd1eaa4d4" ViewId="Product_ListView" IsNewNode="True" />
+          <Item Id="@a431ba73-2373-417d-b84d-6ebd12c2c864" ViewId="Product_ListView_XafDataView" Caption="Product (XafDataView)" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@a9282fa1-8d70-4970-9582-a9657c9529e1" Caption="Prefetch" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@e5c9745e-e830-4c13-bb4b-3e3c04b30551" ViewId="Person_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="20.2.1.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Product_ListView_XafDataView" ClassName="XafDataAccess.Module.BusinessObjects.Product" DataAccessMode="DataView" IsNewNode="True">
+      <Columns IsNewNode="True">
+        <ColumnInfo Id="Oid" PropertyName="Oid" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Name" PropertyName="Name" Width="400" SortIndex="0" SortOrder="Ascending" Index="0" IsNewNode="True" />
+        <ColumnInfo Id="OrdersCount" PropertyName="OrdersCount" Width="70" Index="1" IsNewNode="True" />
+        <ColumnInfo Id="OrdersTotal" PropertyName="OrdersTotal" Width="70" Index="2" IsNewNode="True" />
+        <ColumnInfo Id="MaximumOrder" PropertyName="MaximumOrder" Width="70" Index="3" IsNewNode="True" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

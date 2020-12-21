@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XafDataAccess.Module", "XafDataAccess.Module\XafDataAccess.Module.csproj", "{674543AA-56BC-4286-9470-B79E1A96460F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XafDataAccess.Module.Web", "XafDataAccess.Module.Web\XafDataAccess.Module.Web.csproj", "{D310C30F-DBB5-4F22-8552-72CAFCB56E52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XafDataAccess.Web", "XafDataAccess.Web\XafDataAccess.Web.csproj", "{534CC288-1245-460F-A100-8FD3C39B87E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XafDataAccess.Module.Win", "XafDataAccess.Module.Win\XafDataAccess.Module.Win.csproj", "{E203DF98-56A6-42DA-BB79-6F9F1896783A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XafDataAccess.Win", "XafDataAccess.Win\XafDataAccess.Win.csproj", "{04F59BE1-3B77-441F-955C-ABDAB5F13192}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{674543AA-56BC-4286-9470-B79E1A96460F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674543AA-56BC-4286-9470-B79E1A96460F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674543AA-56BC-4286-9470-B79E1A96460F}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{674543AA-56BC-4286-9470-B79E1A96460F}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{674543AA-56BC-4286-9470-B79E1A96460F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674543AA-56BC-4286-9470-B79E1A96460F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D310C30F-DBB5-4F22-8552-72CAFCB56E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D310C30F-DBB5-4F22-8552-72CAFCB56E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D310C30F-DBB5-4F22-8552-72CAFCB56E52}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{D310C30F-DBB5-4F22-8552-72CAFCB56E52}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{D310C30F-DBB5-4F22-8552-72CAFCB56E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D310C30F-DBB5-4F22-8552-72CAFCB56E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534CC288-1245-460F-A100-8FD3C39B87E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534CC288-1245-460F-A100-8FD3C39B87E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534CC288-1245-460F-A100-8FD3C39B87E0}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{534CC288-1245-460F-A100-8FD3C39B87E0}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{534CC288-1245-460F-A100-8FD3C39B87E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534CC288-1245-460F-A100-8FD3C39B87E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E203DF98-56A6-42DA-BB79-6F9F1896783A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E203DF98-56A6-42DA-BB79-6F9F1896783A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E203DF98-56A6-42DA-BB79-6F9F1896783A}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{E203DF98-56A6-42DA-BB79-6F9F1896783A}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{E203DF98-56A6-42DA-BB79-6F9F1896783A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E203DF98-56A6-42DA-BB79-6F9F1896783A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F59BE1-3B77-441F-955C-ABDAB5F13192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F59BE1-3B77-441F-955C-ABDAB5F13192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F59BE1-3B77-441F-955C-ABDAB5F13192}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{04F59BE1-3B77-441F-955C-ABDAB5F13192}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{04F59BE1-3B77-441F-955C-ABDAB5F13192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F59BE1-3B77-441F-955C-ABDAB5F13192}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {215960CD-915B-4BC2-A89F-527917418B78}
+	EndGlobalSection
+EndGlobal
